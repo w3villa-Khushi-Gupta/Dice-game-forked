@@ -31,6 +31,28 @@ img {
   width: 80%;
 }
 
+button{
+border: 0;
+outline: 0;
+position: absolute;
+top: 60%;
+left: 45%;
+cursor: pointer;
+color: white;
+background-color: brown;
+box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 12%) 0px 1px 1px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 8%) 0px 2px 5px 0px;
+border-radius: 14px;
+font-size: 25px;
+font-weight: 300;
+padding: 8px 8px;
+display: inline-block;
+min-height: 28px;
+transition: background-color .24s,box-shadow .24s;
+:hover {
+    box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 12%) 0px 1px 1px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 8%) 0px 3px 9px 0px, rgb(60 66 87 / 8%) 0px 2px 5px 0px;
+}
+}
+
 footer {
   margin-top: 10%;
   text-align: center;

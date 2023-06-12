@@ -1,3 +1,4 @@
+function play(){
 var random1 = Math.floor(Math.random()*6) + 1 ;    //generate number between 1-6
 var random1_dice_image = "images/dice" + random1 + ".png" ;
 
@@ -18,5 +19,7 @@ else if (random1 < random2){
 }
 else{
     document.querySelector("h1").innerHTML = "Draw !!!"
-
 }
+}
+
+document.querySelector("button").addEventListener("click", play);
